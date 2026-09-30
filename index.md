@@ -113,6 +113,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
+
 {% comment %}
 INTRODUCTION
 
@@ -120,6 +121,19 @@ Edit the general explanatory paragraph below if you want to change the pitch.
 {% endcomment %}
 
 <div class="row g-3 pb-3">
+
+  <div id="registration-container" class="col-12">
+    <div class="card h-100">
+      <h5 class="card-header">Registration</h5>
+      <div class="card-body">
+        <p class="text-center">
+          <a href="https://eveeno.com/202439023">
+            <button type="button" class="btn btn-lg btn-success">Register for the Workshop Here</button>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
 
   <!-- left column spans 2 rows -->
   <div class="col-md-6">
