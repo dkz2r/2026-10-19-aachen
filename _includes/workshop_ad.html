@@ -20,7 +20,7 @@
       <h2>{{page.venue}}</h2>
     </div>
     <div class="row">
-    <div class="col-md-6">
+      <div class="col-md-6">
         {% if online == "true_public" %}
         <p>Online (<a href="{{page.address}}">link</a>)</p>
         {% elsif online == "true_private" %}
@@ -28,8 +28,8 @@
         {% endif %}
         <p>{{page.humandate}}</p>
         <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
-    </div>
-    <div class="col-md-6">
+      </div>
+      <div class="col-md-6">
         <p>
         <strong>Instructors:</strong>
         {% if page.instructor %}
@@ -44,7 +44,17 @@
         {{page.helper | join: ', ' %}}
         </p>
         {% endif %}
-    </div>
+      </div>
+      <div class="col-12">
+        <div class="row justify-content-end align-items-center">
+          <div class="col-12 col-md-2">
+            <img src="assets/img/DKZ_Logo_banner_neu.png" class="img-fluid" height="200" />
+          </div>
+          <div class="col-12 col-md-2">
+            <img src="assets/img/logo_hpc.png" class="img-fluid" height="200" />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
